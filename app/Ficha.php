@@ -5,6 +5,7 @@ namespace App;
 class Ficha
 {
 	private $color;
+	//guarda el color de las fichas
 
 	private function __construct(string $col)
 	{
@@ -15,6 +16,7 @@ class Ficha
 	{
 		return $this->color;
 	}
+	//muestra el color de la ficha
 }
 
 ?>
